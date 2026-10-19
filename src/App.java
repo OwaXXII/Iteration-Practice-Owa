@@ -49,18 +49,20 @@ public class App
         //
         // 1. Why does a while loop fit Part 1 and a for loop fit Part 2?
         //    What would go wrong if you swapped them?
-        //    Answer:
+        //    Answer: I learned a while back these two loops are interchangeable and you can use it for each others purpose, but you have to make the conditions a little different.
+        //    Though for simplicity these loops should be used as is because it's kind of hard to formatt it differently.
         //
         // 2. How did your five runs compare to each other? What surprised you?
-        //    Answer:
+        //    Answer:The fact my 100 tries can get less than 5 items, yet it can also get more than 5 dispite the 5%
         //
         // 3. Describe one bug or wrong turn you hit and how you fixed it.
         //    (No bugs? Explain how you checked that your counter was correct.)
-        //    Answer:
+        //    Answer: The 1st todo had an error where you could get a rare item in 0 pulls
         //
         // 4. A 5% chance can feel very different depending on how it's
         //    presented. Who benefits when players keep pulling, and who
         //    might be harmed?
-        //    Answer:
+        //    Answer: Right now it seems to just benifit the player for having fun and harms them because of the amount of time they spend.
+        //    Though, turning this into a money making game the person who makes it benefits per pull while the user is harmed financially and addiction wise.
     }
 }
