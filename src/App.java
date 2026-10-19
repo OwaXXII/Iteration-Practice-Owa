@@ -14,11 +14,14 @@ public class App
 
         // ===== TODO 1: Pull Until Rare =====
         // Pull until you get a rare item. Count how many pulls it took.
-        // Loop I'm using: ________  Why: ____________________
+        // Loop I'm using: while  Why: Don't know how many times to pull
 
         int pullsToRare = 0;
 
-        // write your loop here
+        while (machine.pullItem() != true){
+            int pullsToRare++
+            machine.pullItem()
+        }
 
 
         System.out.println("Part 1: It took " + pullsToRare + " pulls to get a rare item.");
