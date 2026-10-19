@@ -19,8 +19,8 @@ public class App
         int pullsToRare = 0;
 
         while (machine.pullItem() != true){
-            int pullsToRare++
-            machine.pullItem()
+            pullsToRare++;
+            machine.pullItem();
         }
 
 
@@ -28,11 +28,16 @@ public class App
 
         // ===== TODO 2: Exactly 100 Pulls =====
         // Pull exactly 100 times. Count how many were rare.
-        // Loop I'm using: ________  Why: ____________________
+        // Loop I'm using: For  Why: Fixed amount of loop
 
         int rareCount = 0;
 
-        // write your loop here
+        for (int o = 0; o < 100; machine.pullItem()) {
+            if (machine.pullItem() == true){
+                rareCount++;
+            }
+            o++;
+        }
 
 
         System.out.println("Part 2: In 100 pulls, you got " + rareCount + " rare items.");
