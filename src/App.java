@@ -19,8 +19,8 @@ public class App
         int pullsToRare = 0;
 
         while (machine.pullItem() != true){
-            pullsToRare++;
             machine.pullItem();
+            pullsToRare++;
         }
 
 
